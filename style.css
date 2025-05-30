@@ -22,10 +22,14 @@
         
         }
 
- 
+    @keyframes getintouche{
+        from { color:rgb(255, 255, 255);}
+       to { transform: skew(deg); transition: 2s;}
+      }
 
-      .getintouche :hover{
-       {
+
+      .getinto :hover{
+        @keyframes getintouche{
           from { color:rgb(255, 255, 255);}
          to { transform: skew(deg); transition: 2s;}
         }
