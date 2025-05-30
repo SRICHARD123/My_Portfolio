@@ -22,9 +22,13 @@
         
         }
 
-    @keyframes getintouche{
-        from { color:rgb(255, 255, 255);}
-       to {  transition:2;transform: rotate(1deg); transition: 2s;}
+ 
+
+      .getintouche :hover{
+       {
+          from { color:rgb(255, 255, 255);}
+         to { transform: skew(deg); transition: 2s;}
+        }
       }
 
 /* end */
