@@ -1,5 +1,5 @@
 .btn,#start :hover{
-    background-color:rgb(252, 250, 248);
+    background-color:rgb(255, 255, 255);
     transition:2s;
 }
 #portfolio hover{
@@ -8,7 +8,7 @@
 /*  */
 #getintouch{
 
-    background-image: url(ayomikun.jpg);
+    background-image: url(P.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; /* or 'contain' */
@@ -17,14 +17,14 @@
 
     /* get in touch */
     .getintouch{
-        animation:getintouche  infinite;
+        animation:getintouche 2s  linear infinite;
         animation-duration:1s;
         
         }
 
     @keyframes getintouche{
-        from { color:blue;}
-       to { color:yellow; transition:2;transform: translate(3deg);transition: all;}
+        from { color:rgb(255, 255, 255);}
+       to {  transition:2;transform: rotate(1deg); transition: 2s;}
       }
 
 /* end */
@@ -87,3 +87,10 @@
     background-color: #2980b9;
   }
 /* end */
+/* nav */
+ #f :hover{
+  color:blue;
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+/* nav  */
